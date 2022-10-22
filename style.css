@@ -1,0 +1,742 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    list-style: none;
+    text-decoration: none;
+ 
+}
+
+body{
+    background-color: white;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.contener{
+    width: 1140px;
+    margin: 0 auto;
+    /* background-color: blue; */
+   
+}
+.header{
+    display: flex;
+    /* background-color: yellow; */
+    padding-left: 370px;
+    height: 50px;
+    text-align: center;
+    font-family: 'CircularStd';
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* .l2 .l3 .l4.l5{
+    padding-left: 200px;
+} */
+.l5{
+  padding: 20px 40px;
+    background-color: red;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: 0.5s;
+    margin-left: 190px;
+}
+.l6{
+  padding: 15px 40px;
+    /* background-color: red; */
+    border-radius: 10px;
+    color: white;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    transition: 0.5s;
+    margin-left: 450px;
+
+    position: absolute;
+}
+.l5:hover{
+    background-color: blue;
+    color: white;
+}
+.l3{
+    margin-left: 20px;
+}
+.header li{
+    padding: 10px 15px; 
+    /* background-color: green; */
+    font-family: 'CircularStd';
+    transition: 0.5s;
+}
+.navall {
+    display: flex;
+  /* background-color: aqua; */
+  padding: 15px;
+  
+
+
+}
+
+.logo{
+    text-align: center;
+    /* background-color: yellow; */
+   font-size: 25px;
+   position: absolute;
+   /* margin-left: -0px; */
+
+}
+/* .navbar{
+    background-color: blueviolet;
+} */
+
+
+li:hover{
+    color: orangered;
+}
+.birinchi{
+    background-color: white;
+    height: 80px;
+   box-shadow: 0px 1px 20px 1px black;
+   position: fixed;
+   width: 100%;
+   margin-top: -30px;
+   z-index: 1;
+}
+
+
+
+.main-1{
+    /* background-color: aquamarine; */
+    height: 500px;
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+}
+.one-child{
+    width: 500px;
+    /* background-color: pink; */
+    /* margin-left: 20px; */
+}
+.gamburger{
+   width:450px;
+   height: 650px;
+   background-image: url(./img/IMAGE\ \(2\).png);
+   background-size: cover;
+ 
+
+}
+.phone{
+    z-index: 0;
+}
+.two-child{
+    /* background: #FF5634; */
+    margin-right:30px;
+   
+}
+.position{
+    position: relative;
+}
+.phone{
+    position: absolute;
+    height: 500px;
+    bottom: 80px;
+    right: 350px;
+    animation-name: plane;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+@keyframes plane{
+    from{
+transform: translateX(0px) rotate(0deg);
+    }
+    to{
+        transform: translateX(200px) rotate(0deg);
+    }
+}
+.food{
+    color: 
+    #FF5634;
+    font-size: 20px;
+}
+.oshpaz{
+    margin-top: 100px;
+}
+.food-2{
+    color: black;
+    font-size: 50px;
+}
+.food-3{
+    font-size: 15px;
+    color: 
+    #656565;
+}
+
+
+.ll5{
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: 0.5s;
+   margin-top: 35px;
+}
+.ll6{
+    width: 140px;
+    height: 60px;
+    /* background-color: red; */
+    border-radius: 15px;
+    color: white;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    transition: 0.5s;
+    margin-left: 230px;
+margin-top: 35px;
+    position: absolute;
+}
+.ll5:hover{
+    background-color: blue;
+    color: white;
+}
+.chizu{
+    margin-top: 40px;
+}
+.tali3{
+    /* background-color: #bb1515; */
+    width: 450px;
+    height: 60px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.yuz{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.beshyuz{
+    font-size: 40px;
+    margin-right: 40px;
+    font-family: sans-serif;
+}
+.ottiz{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.plus{
+    color: 
+    #FF5634;
+}
+.yozu{
+    font-size: 15px;
+    color: #656565;
+    position: absolute;
+    display: block;
+}
+.yolgiz{
+    position: absolute;
+    /* display: block; */
+    top:220px;
+   
+    left: 350px;
+    
+}
+.qoroqchi{
+    margin: 0 auto;
+    position: relative;
+}
+.yolgiz-1{
+    margin-left: 30px;
+}
+
+.restoran{
+    height: 60px;
+    /* background-color: #FF5634; */
+    color: 
+    #929292;
+    display: block;
+    /* position: absolute; */
+    margin-top: 310px;
+    display: flex;
+justify-content: space-between;
+}
+.restoran li{
+   font-size: 30px;
+}
+.yolgizz{
+    margin-top: 100px;
+    color: black;
+}
+.main-3{
+    height: 700px;
+    /* background-color: aquamarine; */
+    margin-top: 100px;
+}
+
+
+
+.kopyozu{
+  
+    text-align: center;
+}
+.one{
+    color: 
+    #FF5634;
+    /* font-weight: 400; */
+   margin-bottom: 20px;
+}
+.two{
+    font-size: 40px;
+    margin-top:20px;
+}
+.thre{
+    font-size: 40px;
+}
+.for{
+    font-size: 15px;
+  
+}
+.five{
+    margin-left: 470px;
+    font-size: 18px;
+   
+}
+.uch-rasim{
+    height: 300px;
+    /* background-color: #FF5634; */
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.uch-rasim img{
+    margin-left: 0px;
+}
+.botirlar{
+    width: 300px;
+    /* background-color: gold; */
+    text-align: center;
+}
+.adin{
+    font-size: 25px;
+    text-align: center;
+}
+.dva{
+    margin-top: 20px;
+    
+    position: absolute;
+    display: block;
+    width: 300px;
+
+    font-weight: 400;
+/* font-size: 18px; */
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+
+color: #656565;
+}
+
+
+
+.lll5{
+    width: 200px;
+    height: 55px;
+    background-color: 
+    #FF5634;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: 0.5s;
+    margin-top: 130px;
+    margin-left: 390px;
+}
+.lll6{
+    width: 150px;
+    height: 55px;
+    /* background-color: red; */
+    border-radius: 15px;
+    color: white;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    transition: 0.5s;
+    margin-left: 610px;
+    margin-top: 130px;
+    position: absolute;
+}
+.lll5:hover{
+    background-color: blue;
+    color: white;
+}
+
+.chiziqcha{
+    margin-top: 150px;
+}
+
+
+
+.main-5{
+    height: 600px;
+    /* background-color: aquamarine; */
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.eleven{
+    width: 500px;
+    height: 600px;
+    /* background: #FF5634; */
+}
+.nobr{
+    font-size: 40px;
+}
+.noikki{
+    will-change: 300px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 25px;
+/* or 250% */
+width: 500px;
+
+position: absolute;
+color: #656565;
+margin-top: 15px;
+}
+.alohida{
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 300px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+
+color: #656565;
+
+}
+
+.tuwelov{
+    width: 500px;
+    height: 600px;
+    /* background-color: #656565; */
+    position: relative;
+}
+
+.apple{
+    margin-top: 30px;
+    margin-right: 50px;
+    position: absolute;
+    left: -70px;
+}
+.hamburger{
+    position: absolute;
+    right: -15px;
+    bottom: -50px;
+    /* margin-bottom: 50px;
+    padding-bottom: 50px; */
+}
+.tortali{
+    width:500px;
+    height: 450px;
+    /* background-color: blue; */
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.birlik{
+    width: 230px;
+    height: 200px;
+    /* background-color: gold; */
+}
+.gold{
+    font-size: 20px;
+    
+}
+.birlik p{
+    margin-top: 15px;
+}
+.oltin{
+    font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+/* identical to box height, or 214% */
+
+
+color: #656565;
+
+}
+
+
+.llll5{
+    width: 200px;
+    height: 55px;
+    background-color: 
+    #FF5634;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: 0.5s;
+    margin-top: 600px;
+    left: 550px;
+    position: absolute;
+  
+}
+.llll6{
+    width: 150px;
+    height: 55px;
+    /* background-color: red; */
+    border-radius: 15px;
+    color: white;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    transition: 0.5s;
+    margin-left: 600px;
+    margin-top: 600px;
+   
+    position: absolute;
+}
+.llll5:hover{
+    background-color: blue;
+    color: white;
+}
+
+.black-box .contener{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.black-box{
+    height: 730px;
+    background-color: black;
+    margin-top: 400px;
+    
+}
+
+
+
+  .l55{
+    padding: 20px 40px;
+      /* background-color: red; */
+      border-radius: 10px;
+      color: white;
+      background: #FF5634;
+      color: white;
+      text-align: center;
+      
+      transition: 0.5s;
+      margin-top: 30px;
+  
+      position: absolute;
+  }
+  .l55:hover{
+      background-color: blue;
+      color: white;
+  }
+
+  .food{
+    color: 
+    #FF5634;
+    font-size: 20px;
+}
+.oshpaz{
+    margin-top: 100px;
+}
+.food-22{
+    color: white;
+    font-size: 50px;
+}
+.food-33{
+    font-size: 15px;
+    color: 
+    #656565;
+    line-height: 20px;
+    color: white;
+}
+.one-child{
+    width: 500px;
+    /* background-color: pink; */
+    /* margin-left: 20px; */
+    
+    margin-bottom: 200px;
+}
+.black-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.black-item{
+    /* background-color: aquamarine; */
+    width: 45%;
+}
+.black-img{
+    width: 45%;
+}
+.black-rasm img{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+    
+}
+.black-rasm{
+    position: relative;
+    bottom: 20px;
+}
+
+.black-rasim2 img{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+    
+}
+.black-rasim2{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-33{
+    height: 700px;
+    /* background-color: aquamarine; */
+    margin-top: 100px;
+}
+
+
+
+.kopyozuu{
+  
+    text-align: center;
+}
+.onee{
+    color: 
+    #FF5634;
+    /* font-weight: 400; */
+   margin-bottom: 20px;
+}
+.twoo{
+    font-size: 40px;
+    margin-top:20px;
+}
+.three{
+    font-size: 40px;
+}
+.forr{
+    font-size: 15px;
+  
+}
+.fivee{
+    margin-left: 470px;
+    font-size: 18px;
+   
+}
+.uch-rasimm{
+    height: 300px;
+    /* background-color: #FF5634; */
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.uch-rasimm img{
+    margin-left: 0px;
+}
+.botirlarr{
+    width: 300px;
+    /* background-color: gold; */
+    text-align: center;
+}
+.botirlarr img{
+    width: 100px;
+    padding-bottom: 10px;
+}
+.adinn{
+    font-size: 25px;
+    text-align: center;
+}
+.dvaa{
+    margin-top: 20px;
+    
+    position: absolute;
+    display: block;
+    width: 300px;
+
+    font-weight: 400;
+/* font-size: 18px; */
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+
+color: #656565;
+}
+
+
+
+.lll55{
+    padding: 20px 50px;
+    background-color: 
+    #FF5634;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    
+    transition: 0.5s;
+    position: relative;
+    top: 150px;
+    margin-left: 390px;
+}
+.lll66{
+  padding: 20px 40px;
+    /* background-color: red; */
+    border-radius: 15px;
+    color: white;
+    background: #FFFFFF;
+    
+    color: black;
+    text-align: center;
+    
+    transition: 0.5s;
+    margin-left: 610px;
+    margin-top: 130px;
+    position: absolute;
+}
+.lll55:hover{
+    background-color: blue;
+    color: white;
+}
